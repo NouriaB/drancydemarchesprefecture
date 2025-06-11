@@ -15,7 +15,7 @@ const Pricing = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6">
-            Tarifs <span className="text-indigo-600 font-medium">transparents</span>
+            Tarifs <span className="text-primary font-medium">transparents</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Des prix justes et clairs, sans frais cachés.
@@ -31,7 +31,7 @@ const Pricing = () => {
             {specificServices.map((item, index) => (
               <div key={index} className="flex justify-between items-center py-4 border-b border-gray-100 last:border-b-0">
                 <span className="text-gray-700 font-medium">{item.service}</span>
-                <span className="font-medium text-indigo-600 text-lg">{item.price}</span>
+                <span className="font-medium text-primary text-lg">{item.price}</span>
               </div>
             ))}
           </div>

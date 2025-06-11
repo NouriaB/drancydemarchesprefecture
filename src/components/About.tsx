@@ -7,11 +7,11 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6">
-            Votre partenaire de <span className="text-indigo-600 font-medium">confiance</span>
+            Votre partenaire de <span className="text-primary font-medium">confiance</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-           Depuis plus de 20 ans, nous simplifions les démarches préfectorales pour tous, <br /> 
-           quel que soit le lieu de résidence.
+            Depuis plus de 20 ans, nous simplifions les démarches préfectorales pour tous, 
+            quel que soit le lieu de résidence.
           </p>
         </div>
 
@@ -25,8 +25,8 @@ const About = () => {
             
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
-                <div className="bg-indigo-100 rounded-lg p-3">
-                  <Shield size={24} className="text-indigo-600" />
+                <div className="bg-primaryLight rounded-lg p-3">
+                  <Shield size={24} className="text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-900 mb-2">Expertise reconnue</h4>
@@ -34,8 +34,8 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <div className="bg-indigo-100 rounded-lg p-3">
-                  <Clock size={24} className="text-indigo-600" />
+                <div className="bg-primaryLight rounded-lg p-3">
+                  <Clock size={24} className="text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-900 mb-2">Gain de temps</h4>
@@ -43,8 +43,8 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <div className="bg-indigo-100 rounded-lg p-3">
-                  <Users size={24} className="text-indigo-600" />
+                <div className="bg-primaryLight rounded-lg p-3">
+                  <Users size={24} className="text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-900 mb-2">Accompagnement humain</h4>
@@ -59,7 +59,7 @@ const About = () => {
               Pourquoi nous choisir ?
             </h3>
             <div className="space-y-6">
-              <div className="border-l-4 border-indigo-500 pl-4">
+              <div className="border-l-4 border-primaryBorder pl-4">
                 <h4 className="font-medium text-gray-900 mb-2">Gain de temps</h4>
                 <p className="text-gray-600">Évitez les files d'attente et les allers-retours inutiles</p>
               </div>

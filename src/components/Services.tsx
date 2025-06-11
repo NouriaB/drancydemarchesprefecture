@@ -25,7 +25,7 @@ const Services = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6">
-            Nos <span className="text-indigo-600 font-medium">prestations</span>
+            Nos <span className="text-primary font-medium">prestations</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Une gamme complète de services pour toutes vos démarches administratives.
@@ -38,7 +38,7 @@ const Services = () => {
               key={index}
               className="bg-gray-50 rounded-xl p-8 hover:bg-gray-100 transition duration-200"
             >
-              <div className="bg-indigo-100 rounded-lg w-12 h-12 flex items-center justify-center mb-6 text-indigo-600">
+              <div className="bg-primaryLight rounded-lg w-12 h-12 flex items-center justify-center mb-6 text-primary">
                 {service.icon}
               </div>
               <h3 className="text-lg font-medium text-gray-900 mb-4">{service.title}</h3>
@@ -57,7 +57,7 @@ const Services = () => {
             </p>
             <a 
               href="#contact" 
-              className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg transition duration-200 font-medium inline-block"
+              className="bg-primary hover:bg-primaryBorder text-white px-6 py-3 rounded-lg transition duration-200 font-medium inline-block"
             >
               Demander un devis
             </a>

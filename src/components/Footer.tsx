@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo et description */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <div className="bg-indigo-600 rounded-lg p-2">
+              <div className="bg-primary rounded-lg p-2">
                 <AtSign size={20} className="text-white" />
               </div>
               <div>

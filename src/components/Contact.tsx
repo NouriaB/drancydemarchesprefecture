@@ -32,7 +32,7 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6">
-            <span className="text-indigo-600 font-medium">Contactez</span>-nous
+            <span className="text-primary font-medium">Contactez</span>-nous
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Une question ? Besoin d'un devis ? Notre équipe est à votre disposition.
@@ -42,8 +42,8 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div className="space-y-8">
             <div className="flex items-start space-x-4">
-              <div className="bg-indigo-100 rounded-lg p-3">
-                <MapPin size={24} className="text-indigo-600" />
+              <div className="bg-primaryLight rounded-lg p-3">
+                <MapPin size={24} className="text-primary" />
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 mb-2">Adresse</h4>
@@ -56,8 +56,8 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="bg-indigo-100 rounded-lg p-3">
-                <MessageCircle size={24} className="text-indigo-600" />
+              <div className="bg-primaryLight rounded-lg p-3">
+                <MessageCircle size={24} className="text-primary" />
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 mb-2">WhatsApp (préféré)</h4>
@@ -67,8 +67,8 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="bg-indigo-100 rounded-lg p-3">
-                <Mail size={24} className="text-indigo-600" />
+              <div className="bg-primaryLight rounded-lg p-3">
+                <Mail size={24} className="text-primary" />
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 mb-2">Email</h4>
@@ -79,8 +79,8 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="bg-indigo-100 rounded-lg p-3">
-                <Clock size={24} className="text-indigo-600" />
+              <div className="bg-primaryLight rounded-lg p-3">
+                <Clock size={24} className="text-primary" />
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 mb-2">Horaires</h4>
@@ -116,7 +116,7 @@ const Contact = () => {
                       id="name"
                       name="name"
                       required
-                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-indigo-500"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary"
                       placeholder="Votre nom"
                     />
                   </div>
@@ -129,7 +129,7 @@ const Contact = () => {
                       id="email"
                       name="email"
                       required
-                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-indigo-500"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary"
                       placeholder="votre@email.com"
                     />
                   </div>
@@ -144,7 +144,7 @@ const Contact = () => {
                       type="tel"
                       id="phone"
                       name="phone"
-                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-indigo-500"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary"
                       placeholder="06 XX XX XX XX"
                     />
                   </div>
@@ -155,7 +155,7 @@ const Contact = () => {
                     <select
                       id="service"
                       name="service"
-                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-indigo-500"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary"
                     >
                       <option value="">Choisir un service</option>
                       <option value="Première demande">Première demande</option>
@@ -175,7 +175,7 @@ const Contact = () => {
                     name="message"
                     required
                     rows={4}
-                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-indigo-500 resize-none"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary resize-none"
                     placeholder="Décrivez votre demande..."
                   ></textarea>
                 </div>
@@ -183,7 +183,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSending}
-                  className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50"
+                  className="w-full bg-primary hover:bg-primaryBorder text-white font-medium py-3 px-6 rounded-lg transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50"
                 >
                   {isSending ? (
                     <>
