@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, AtSign } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,18 +7,30 @@ const Header = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-6">
-          <div className="flex items-center space-x-3">
-            <div className="bg-primary rounded-lg p-2">
-              <AtSign size={24} className="text-white" />
+        <div className="flex justify-between items-center py-2">
+         
+          {/* Logo*/}
+          <div className="flex items-stretch space-x-4">
+            <div className="flex items-center justify-center w-16 sm:w-20 md:w-24">
+              <img
+                src="/src/assets/logo.png"
+                alt="Logo Drancy Démarches"
+                className="h-full w-full object-contain drop-shadow-sm"
+              />
             </div>
-            <div>
-              <h1 className="text-xl font-semibold text-gray-900">
-                Drancy Démarches Préfecture
+
+            {/* Nom*/}
+            <div className="flex flex-col justify-center">
+              <h1 className="text-base sm:text-lg font-bold text-gray-600">
+                <div className="flex flex-col">
+                  <span><span className="text-primary font-serif text-lg sm:text-xl">D</span>RANCY</span>
+                  <span><span className="text-primary font-serif text-lg sm:text-xl">D</span>ÉMARCHES</span>
+                  <span><span className="text-primary font-serif text-lg sm:text-xl">P</span>RÉFECTURE</span>
+                </div>
               </h1>
             </div>
           </div>
-          
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <a href="#accueil" className="text-gray-600 hover:text-primary transition duration-200 font-medium">Accueil</a>

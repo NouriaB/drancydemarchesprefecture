@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users, Home, Globe } from 'lucide-react';
 
 const Services = () => {
@@ -21,7 +20,8 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-white">
+    // <section id="services" className="py-20 bg-white">
+    <section id="services" className="py-20 bg-gradient-to-b from-blue-50 to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6">
@@ -36,7 +36,10 @@ const Services = () => {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="bg-gray-50 rounded-xl p-8 hover:bg-gray-100 transition duration-200"
+              style={{
+               boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px"
+              }}
+              className="bg-white rounded-xl p-8"
             >
               <div className="bg-primaryLight rounded-lg w-12 h-12 flex items-center justify-center mb-6 text-primary">
                 {service.icon}
@@ -57,7 +60,7 @@ const Services = () => {
             </p>
             <a 
               href="#contact" 
-              className="bg-primary hover:bg-primaryBorder text-white px-6 py-3 rounded-lg transition duration-200 font-medium inline-block"
+              className="bg-primary hover:bg-primaryHover text-white px-6 py-3 rounded-lg transition duration-200 font-medium inline-block"
             >
               Demander un devis
             </a>

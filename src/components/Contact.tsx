@@ -28,7 +28,8 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-white">
+    // <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-gradient-to-b from-blue-50 to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6">
@@ -93,7 +94,9 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-gray-50 rounded-2xl p-8">
+          {/* <div className="bg-gray-50 rounded-2xl p-8"> */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg">
+          
             <h3 className="text-xl font-medium text-gray-900 mb-8">Demande de renseignement</h3>
 
             {isSubmitted ? (
@@ -183,7 +186,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSending}
-                  className="w-full bg-primary hover:bg-primaryBorder text-white font-medium py-3 px-6 rounded-lg transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50"
+                  className="w-full bg-primary hover:bg-primaryHover text-white font-medium py-3 px-6 rounded-lg transition duration-200 flex items-center justify-center space-x-2 disabled:opacity-50"
                 >
                   {isSending ? (
                     <>

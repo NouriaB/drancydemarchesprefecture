@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0052CC',       // Bleu principal (remplace indigo-600)
+        primary: '#0052D6',       // Bleu principal (remplace indigo-600)
         primaryLight: '#E6F0FF',  // Bleu clair (remplace indigo-100)
-        primaryBorder: '#003FA3', // Optionnel pour les bordures
+        primaryHover: '#003FA3', // Optionnel pour les bordures
       },
     },
   },

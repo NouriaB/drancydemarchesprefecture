@@ -3,7 +3,8 @@ import { Shield, Clock, Users } from 'lucide-react';
 
 const About = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    // <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6">
@@ -59,7 +60,7 @@ const About = () => {
               Pourquoi nous choisir ?
             </h3>
             <div className="space-y-6">
-              <div className="border-l-4 border-primaryBorder pl-4">
+              <div className="border-l-4 border-primary pl-4">
                 <h4 className="font-medium text-gray-900 mb-2">Gain de temps</h4>
                 <p className="text-gray-600">Évitez les files d'attente et les allers-retours inutiles</p>
               </div>
