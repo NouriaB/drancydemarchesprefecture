@@ -9,17 +9,11 @@ const Footer = () => {
           {/* Logo et description */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <div className="bg-primary rounded-lg p-2">
-                <AtSign size={20} className="text-white" />
-              </div>
-              <div>
-                <h3 className="text-lg font-medium">Drancy Démarches</h3>
-                <p className="text-sm text-gray-400">Préfecture</p>
-              </div>
+              <h3 className="text-lg font-medium">Drancy Démarches Préfecture</h3>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Votre partenaire de confiance pour toutes vos démarches administratives. 
-              Plus de 20 ans d'expérience au service des habitants de Drancy.
+              Votre partenaire de confiance pour toutes vos démarches administratives.
+              Plus de 20 ans d’expertise pour vos démarches en préfecture, sur tout le territoire français.
             </p>
           </div>
 
@@ -47,13 +41,13 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={16} />
-                <span className="text-sm">drancyinternet@gmail.com</span>
+                <span className="text-sm">DrancyDemarchesPrefecture@gmail.com</span>
               </div>
             </div>
-            
+
             <div className="mt-6">
               <p className="text-sm text-gray-400">Bureau ouvert :</p>
-              <p className="text-sm text-gray-400">Mar, Mer, Jeu : 14h - 19h</p>
+              <p className="text-sm text-gray-400">Mardi, Mercredi, Jeudi : 14h - 19h</p>
               <p className="text-sm text-gray-400">WhatsApp disponible 7j/7</p>
             </div>
           </div>

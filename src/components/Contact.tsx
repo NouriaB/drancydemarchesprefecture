@@ -61,7 +61,7 @@ const Contact = () => {
                 <MessageCircle size={24} className="text-primary" />
               </div>
               <div>
-                <h4 className="font-medium text-gray-900 mb-2">WhatsApp (préféré)</h4>
+                <h4 className="font-medium text-gray-900 mb-2">WhatsApp</h4>
                 <p className="text-gray-600">06 51 50 89 10</p>
                 <p className="text-sm text-gray-500">Disponible 7j/7</p>
               </div>
@@ -73,8 +73,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 mb-2">Email</h4>
-                <p className="text-gray-600">drancyinternet@gmail.com</p>
-                <p className="text-gray-600">drancydemarchesprefecture@gmail.com</p>
+                <p className="text-gray-600">DrancyDemarchesPrefecture@gmail.com</p>
                 <p className="text-sm text-gray-500">Réponse sous 48h</p>
               </div>
             </div>
